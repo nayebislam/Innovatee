@@ -2,12 +2,18 @@ import React from 'react'
 import logo from '../../assets/logo.png'
 import Container from '../layout/Container'
 import Button from '../layout/Button'
-import Banner from '../../assets/banner.png'
+// import Banner from '../../assets/banner.png'
 
 const Navbar = () => {
     return (
         <div className='pt-8 relative'>
-            <img className='absolute top-0 left-0 -z-[9999]' src={Banner} alt="" />
+            {/* <div className='absolute top-0 left-0 -z-[9999] bg-center bg-cover bg-no-repeat'
+                style={{
+                    backgroundImage: `URL(${Banner})`,
+                }}
+            >
+                
+            </div> */}
             <Container>
                 <div className='flex justify-between items-center'>
                     <div>
