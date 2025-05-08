@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import Header from './components/Header/Header'
 import Platform from './components/Platform/Platform'
 import Features from './components/Features/Features'
+import Integrate from './components/Integrate/Integrate'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       </Header>
       <Platform />
       <Features />
+      <Integrate />
     </>
   )
 }
