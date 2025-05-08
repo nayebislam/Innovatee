@@ -5,6 +5,7 @@ import Header from './components/Header/Header'
 import Platform from './components/Platform/Platform'
 import Features from './components/Features/Features'
 import Integrate from './components/Integrate/Integrate'
+import Service from './components/Service/Service'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Platform />
       <Features />
       <Integrate />
+      <Service />
     </>
   )
 }

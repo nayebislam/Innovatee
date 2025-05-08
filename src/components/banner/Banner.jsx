@@ -18,7 +18,7 @@ const Banner = () => {
                 </Container>
             </div>
             <div className='absolute left-[11%] bottom-[-260px]'>
-                <img src={laptop} alt="" />
+                <img src={laptop} alt="#laptop" />
             </div>
         </section>
     )

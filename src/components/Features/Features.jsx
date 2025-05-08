@@ -36,7 +36,7 @@ const Features = () => {
                         </h3>
                         <div className='flex justify-between mt-[64px]'>
                             <div>
-                                <img src={ficon1} alt="" />
+                                <img src={ficon1} alt="#featuresIcon1" />
                                 <h1 className='font-primary font-bold text-[22px] leading-[34px] text-titleColor mt-[14px] mb-[6px]'>
                                     Fast and Easy to use
                                 </h1>
@@ -45,7 +45,7 @@ const Features = () => {
                                 </p>
                             </div>
                             <div>
-                                <img className='w-[50px]' src={ficon2} alt="" />
+                                <img className='w-[50px]' src={ficon2} alt="#featuresIcon2" />
                                 <h1 className='font-primary font-bold text-[22px] leading-[34px] text-titleColor mt-[14px] mb-[6px]'>
                                     Safely Security
                                 </h1>
@@ -56,7 +56,7 @@ const Features = () => {
                         </div>
                         <div className='flex justify-between mt-[40px]'>
                             <div>
-                                <img src={ficon3} alt="" />
+                                <img src={ficon3} alt="#featuresIcon3" />
                                 <h1 className='font-primary font-bold text-[22px] leading-[34px] text-titleColor mt-[14px] mb-[6px]'>
                                     Get Organized
                                 </h1>
