@@ -6,6 +6,7 @@ import Platform from './components/Platform/Platform'
 import Features from './components/Features/Features'
 import Integrate from './components/Integrate/Integrate'
 import Service from './components/Service/Service'
+import Customers from './components/Customers/Customers'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Features />
       <Integrate />
       <Service />
+      <Customers />
     </>
   )
 }
