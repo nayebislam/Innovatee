@@ -7,6 +7,7 @@ import Features from './components/Features/Features'
 import Integrate from './components/Integrate/Integrate'
 import Service from './components/Service/Service'
 import Customers from './components/Customers/Customers'
+import Pricing from './components/Pricing/Pricing'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Integrate />
       <Service />
       <Customers />
+      <Pricing />
     </>
   )
 }
