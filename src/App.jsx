@@ -8,6 +8,7 @@ import Integrate from './components/Integrate/Integrate'
 import Service from './components/Service/Service'
 import Customers from './components/Customers/Customers'
 import Pricing from './components/Pricing/Pricing'
+import About from './components/About/About'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Service />
       <Customers />
       <Pricing />
+      <About />
     </>
   )
 }
