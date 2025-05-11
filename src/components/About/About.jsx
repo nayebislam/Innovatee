@@ -2,6 +2,7 @@ import React from 'react'
 import Container from '../layout/Container'
 import aboutimage from '../../assets/aboutimage.png'
 import aboutimage1 from '../../assets/aboutimage1.png'
+import '../About/about.css'
 
 
 const About = () => {
