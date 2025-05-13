@@ -7,7 +7,7 @@ import '../About/about.css'
 
 const About = () => {
     return (
-        <section className='py-[200px] bg-[#F4FAFA]'>
+        <section className='py-[200px] bg-[#F4FAFA] mb-[309px]'>
             <Container>
                 <div className='flex justify-between items-center'>
                     <div>
