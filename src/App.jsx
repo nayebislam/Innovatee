@@ -9,7 +9,7 @@ import Service from './components/Service/Service'
 import Customers from './components/Customers/Customers'
 import Pricing from './components/Pricing/Pricing'
 import About from './components/About/About'
-import Contactus from './components/ContactUs/Contactus'
+import FotterPart from './components/FotterPart/FotterPart'
 
 function App() {
 
@@ -26,7 +26,7 @@ function App() {
       <Customers />
       <Pricing />
       <About />
-      <Contactus />
+      <FotterPart />
     </>
   )
 }

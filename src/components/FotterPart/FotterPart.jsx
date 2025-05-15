@@ -1,0 +1,120 @@
+import React from 'react'
+import Container from '../layout/Container'
+import ContactUsbg from '../../assets/ContactUsbg.png'
+import footerlogo from '../../assets/footerlogo.png'
+import { CgGoogle } from "react-icons/cg";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { RiTelegram2Fill } from "react-icons/ri";
+
+
+const FotterPart = () => {
+    return (
+        <section className='bg-[#F7F7FC]'>
+            <Container>
+                <div className='relative'>
+
+                    <div className='absolute left-0 top-[-150px] flex justify-between py-[100px] px-[102px] items-center w-full'
+                        style={
+                            {
+                                backgroundImage: `url(${ContactUsbg})`
+                            }
+                        }
+                    >
+                        <h1 className='max-w-[577px] font-primary font-bold text-[46px] leading-[58px] text-white'>Don’t find the answer? contact us for any query.</h1>
+                        <button className='font-secondary text-lg leading-[20px] text-[#2C2643] py-[20px] px-12 rounded-[6px] bg-secondery cursor-pointer'>Contact Us</button>
+                    </div>
+                    <div className=' flex pt-[291px] pb-[86px]'>
+                        <div>
+                            <a href="#">
+                                <img src={footerlogo} alt="#footerlogo" />
+                            </a>
+                            <p className='max-w-[263px] font-secondary text-[16px] leading-[28px] text-peraColor mt-[28px] mb-[24px]'>Build a modern and creative website with Innovate.</p>
+                            <div className='flex gap-[7px]'>
+                                <div className='w-[42px] h-[42px] rounded-full bg-[#EEEEEE] flex justify-center items-center cursor-pointer'>
+                                    <CgGoogle className='text-[#645E76]' />
+                                </div>
+                                <div className='w-[42px] h-[42px] rounded-full bg-[#EEEEEE] flex justify-center items-center cursor-pointer'>
+                                    <FaTwitter className='text-[#645E76]' />
+                                </div>
+                                <div className='w-[42px] h-[42px] rounded-full bg-[#EEEEEE] flex justify-center items-center cursor-pointer'>
+                                    <FaInstagram className='text-[#645E76]' />
+                                </div>
+                                <div className='w-[42px] h-[42px] rounded-full bg-[#EEEEEE] flex justify-center items-center cursor-pointer'>
+                                    <FaLinkedin className='text-[#645E76]' />
+                                </div>
+                            </div>
+                        </div>
+                        <div className='flex gap-[81px] ml-[200px]'>
+                            <ul className='flex flex-col gap-[12px]'>
+                                <h2 className='font-secondary font-medium text-lg leading-8 text-titleColor mb-[8px]'>Product</h2>
+                                <li>
+                                    <a className='font-secondary font-medium text-[16px] leading-[26px] text-peraColor' href="#">Landingpages</a>
+                                </li>
+                                <li>
+                                    <a className='font-secondary font-medium text-[16px] leading-[26px] text-peraColor' href="#">Pricing</a>
+                                </li>
+                                <li>
+                                    <a className='font-secondary font-medium text-[16px] leading-[26px] text-peraColor' href="#">Benefits</a>
+                                </li>
+                                <li>
+                                    <a className='font-secondary font-medium text-[16px] leading-[26px] text-peraColor' href="#">Features</a>
+                                </li>
+                            </ul>
+                            <ul className='flex flex-col gap-[12px]'>
+                                <h2 className='font-secondary font-medium text-lg leading-8 text-titleColor mb-[8px]'>Company</h2>
+                                <li>
+                                    <a className='font-secondary font-medium text-[16px] leading-[26px] text-peraColor' href="#">About</a>
+                                </li>
+                                <li>
+                                    <a className='font-secondary font-medium text-[16px] leading-[26px] text-peraColor' href="#">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a className='font-secondary font-medium text-[16px] leading-[26px] text-peraColor' href="#">Terms & Conditions</a>
+                                </li>
+                                <li>
+                                    <a className='font-secondary font-medium text-[16px] leading-[26px] text-peraColor' href="#">Partners</a>
+                                </li>
+                                <li>
+                                    <a className='font-secondary font-medium text-[16px] leading-[26px] text-peraColor' href="#">Contact</a>
+                                </li>
+                            </ul>
+                            <ul className='flex flex-col gap-[12px]'>
+                                <h2 className='font-secondary font-medium text-lg leading-8 text-titleColor mb-[8px]'>Resources</h2>
+                                <li>
+                                    <a className='font-secondary font-medium text-[16px] leading-[26px] text-peraColor' href="#">Guides and resources</a>
+                                </li>
+                                <li>
+                                    <a className='font-secondary font-medium text-[16px] leading-[26px] text-peraColor' href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <a className='font-secondary font-medium text-[16px] leading-[26px] text-peraColor' href="#">Tools</a>
+                                </li>
+                                <li>
+                                    <a className='font-secondary font-medium text-[16px] leading-[26px] text-peraColor' href="#">Support</a>
+                                </li>
+                            </ul>
+                            <div>
+                                <h2 className='font-secondary font-medium text-lg leading-8 text-titleColor'>Get Latest Updates</h2>
+                                <p className='max-w-[285px] font-secondary font-medium text-[16px] leading-[26px] text-peraColor mb-[32px] mt-[18px]'>Subscribe to our newsletter and get many interesting things every week</p>
+                                <div className='relative items-center'>
+                                    <input type="Email" placeholder='Your Email Address' className='w-[269px] py-[14px] pl-[18px] rounded-[5px] bg-transparent outline-0 border-[0.85px] border-[#D2D2D2] placeholder:text-[#B4B6C4] placeholder:font-primary text-black' />
+                                    <div className='w-9 h-9 rounded-[6px] bg-primary flex justify-center items-center cursor-pointer absolute top-[9px] right-[24px]'>
+                                        <RiTelegram2Fill className='text-white' />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='border-[3px] border-[#D2D2D2] rounded-[80px]'></div>
+                <div className='py-6'>
+                    <p className='font-secondary text-[14px] leading-[20px] text-peraColor'>© 2024 Innovate - All Right Reserved</p>
+                </div>
+            </Container>
+        </section>
+    )
+}
+
+export default FotterPart
