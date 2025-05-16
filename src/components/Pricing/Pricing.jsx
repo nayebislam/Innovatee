@@ -14,7 +14,7 @@ const Pricing = () => {
                     <p className='font-primary font-bold text-[24px] leading-[100%] text-primary mt-[39px]'>Monthly</p>
                 </div>
                 <div className='flex gap-[30px] mt-[77px]'>
-                    <div className='py-[40px] px-[60px] border-[1px] border-[#DCE7FE] rounded-[20px] group hover:bg-primary transition ease-out duration-400'>
+                    <div className='py-[40px] px-[60px] border-[1px] border-[#DCE7FE] rounded-[20px] group hover:bg-primary hover:border-transparent transition ease-out duration-400 shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]'>
                         <div className='flex flex-col justify-center text-center'>
                             <img className='w-[90px] m-auto' src={pricingIcon1} alt="#pricingIcon1" />
                             <p className='font-primary font-bold text-[24px] leading-[36px] text-primary mt-[32px]  group-hover:text-[#43E7DF]'>Personal</p>
@@ -45,7 +45,7 @@ const Pricing = () => {
                         </ul>
                         <button className='font-secondary text-lg leading-[20px] bg-primary text-white group-hover:text-titleColor py-[20px] px-[104px] rounded-[6px] group-hover:bg-secondery cursor-pointer mt-[40px]'>Purchase Now</button>
                     </div>
-                    <div className='py-[40px] px-[60px] border-[1px] border-[#DCE7FE] rounded-[20px] group hover:bg-primary transition ease-out duration-400'>
+                    <div className='py-[40px] px-[60px] border-[1px] border-[#DCE7FE] rounded-[20px] group hover:bg-primary hover:border-transparent transition ease-out duration-400 shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]'>
                         <div className='flex flex-col justify-center text-center'>
                             <img className='w-[90px] m-auto' src={pricingIcon2} alt="#pricingIcon2" />
                             <p className='font-primary font-bold text-[24px] leading-[36px] text-primary mt-[32px] group-hover:text-[#43E7DF]'>Team</p>
@@ -76,7 +76,7 @@ const Pricing = () => {
                         </ul>
                         <button className='font-secondary text-lg leading-[20px] bg-primary text-white group-hover:text-titleColor py-[20px] px-[104px] rounded-[6px] group-hover:bg-secondery cursor-pointer mt-[40px]'>Purchase Now</button>
                     </div>
-                    <div className='py-[40px] px-[60px] border-[1px] border-[#DCE7FE] rounded-[20px] group hover:bg-primary transition ease-out duration-400'>
+                    <div className='py-[40px] px-[60px] border-[1px] border-[#DCE7FE] rounded-[20px] group hover:bg-primary hover:border-transparent transition ease-out duration-400 shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]'>
                         <div className='flex flex-col justify-center text-center'>
                             <img className='w-[90px] m-auto' src={pricingIcon3} alt="#pricingIcon3" />
                             <p className='font-primary font-bold text-[24px] leading-[36px] text-primary mt-[32px] group-hover:text-[#43E7DF]'>Enterprise</p>
