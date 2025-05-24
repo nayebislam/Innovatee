@@ -1,0 +1,32 @@
+.slick-slider .slick-track, .slick-slider .slick-list {
+    border-radius: 21px !important;
+}
+
+.slick-slider{
+    position: relative;
+}
+
+.slick-slider svg:first-child{
+    position: absolute;
+    left: 0;
+    top: 63%;
+    transform: translateY(-63%) translateX(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #3639A4;
+    color: white;
+    z-index: 999;
+}
+
+.slick-slider svg:last-child{
+    position: absolute;
+    right: 0;
+    top: 63%;
+    transform: translateY(-63%) translateX(50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #3639A4;
+    color: white;
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from '../layout/Container'
 import aboutimage from '../../assets/aboutimage.png'
-// import '../About/about.css'
+import '../About/about.css'
 import AboutSlider from './AboutSlider'
 
 
