@@ -12,7 +12,7 @@ const Navbar = () => {
         setShow(true)
     }
     return (
-        <div className='pt-8 relative'>
+        <div className='pt-6 lg:pt-8 relative'>
             {/* <div className='absolute top-0 left-0 -z-[9999] bg-center bg-cover bg-no-repeat'
                 style={{
                     backgroundImage: `URL(${Banner})`,
@@ -21,15 +21,15 @@ const Navbar = () => {
                 
             </div> */}
             <Container>
-                <div className='md:flex justify-between items-center'>
+                <div className='lg:flex justify-between items-center'>
                     <div className='flex justify-between items-center'>
                         <img src={logo} alt="#logo" />
                         <div>
-                            <FaBars onClick={handleClic} className='block md:hidden text-2xl text-white' />
+                            <FaBars onClick={handleClic} className='block lg:hidden text-2xl text-white' />
                         </div>
                     </div>
                     <div>
-                        <ul className='hidden md:flex gap-[50px] font-secondary text-lg font-medium text-white'>
+                        <ul className='hidden lg:flex gap-[50px] font-secondary text-lg font-medium text-white'>
                             <li>
                                 <a href="#">Home</a>
                             </li>
@@ -47,7 +47,7 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className='hidden md:flex items-center gap-x-9'>
+                    <div className='hidden lg:flex items-center gap-x-9'>
                         <button className='font-secondary text-lg text-white font-medium cursor-pointer'>Login</button>
                         <Button>Register</Button>
                     </div>
@@ -56,7 +56,7 @@ const Navbar = () => {
 
             {
                 show &&
-                <div>
+                <div className='flex flex-col justify-center items-center'>
                     <div>
                         <RxCross2 onClick={() => setShow(false)} className='text-2xl text-white' />
                     </div>
@@ -79,11 +79,11 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className='items-center gap-x-9'>
+                    <div className='items-center gap-y-9'>
                         <button className='font-secondary text-lg text-white font-medium cursor-pointer'>Login</button>
                         <Button>Register</Button>
                     </div>
-                </div>     
+                </div>
             }
 
         </div>
