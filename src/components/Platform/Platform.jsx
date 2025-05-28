@@ -25,22 +25,22 @@ const Platform = () => {
         }
     ]
   return (
-    <section className='pt-[336px] pb-[160px]'>
+    <section className='pt-[100px] pb-[100px] lg:pt-[336px] lg:pb-[160px]'>
         <Container>
-            <div className='px-[60px]'>
-                <div className='flex justify-between'>
-                    <h1 className='max-w-[504px] font-primary text-[46px] font-bold leading-[56px] text-titleColor'>How simple is it to use our platform?</h1>
-                    <p className='max-w-[530px] font-secondary text-[18px] leading-[32px] text-peraColor'>This Innovate Con guide explores the most popular platforms and walks you through how to use them to grow your business.</p>
+            <div className='lg:px-[60px]'>
+                <div className='lg:flex justify-between text-center lg:text-left'>
+                    <h1 className='max-w-[504px] font-primary text-[26px] leading-[36px] lg:text-[46px] font-bold lg:leading-[56px] text-titleColor'>How simple is it to use our platform?</h1>
+                    <p className='max-w-[530px] mt-2 lg:mt-0 font-secondary text-[18px] leading-[28px] lg:leading-[32px] text-peraColor'>This Innovate Con guide explores the most popular platforms and walks you through how to use them to grow your business.</p>
                 </div>
-                <div className='flex justify-between mt-[116px]'>
+                <div className='flex flex-wrap justify-between mt-[80px] lg:mt-[116px]'>
                     {
                         platfromData.map((item) => (
-                            <div className='w-[300px] flex flex-col items-center text-center justify-center'>
+                            <div className='lg:w-[300px] flex flex-col items-center text-center justify-center mb-[30px]'>
                                 <img src={item.img} alt="#platfromIcon" />
-                                <h3 className='font-primary font-bold text-2xl leading-9 text-titleColor pt-[26px] pb-3'>
+                                <h3 className='font-primary font-bold text-[22px] lg:text-2xl leading-[30px] lg:leading-9 text-titleColor pt-[16px] pb-2 lg:pt-[26px] lg:pb-3'>
                                     {item.title}
                                 </h3>
-                                <p className='font-secondary text-[18px] leading-[32px] text-peraColor'>
+                                <p className='font-secondary text-[18px] leading-[28px] lg:leading-[32px] text-peraColor'>
                                     {item.description}
                                 </p>
                             </div>
