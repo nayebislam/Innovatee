@@ -7,14 +7,14 @@ import serviceicon4 from '../../assets/serviceicon4.png'
 
 const Service = () => {
     return (
-        <section className='py-[140px]'>
+        <section className='py-[80px] xl:py-[140px]'>
             <Container>
                 <div className='text-center'>
                     <p className='font-secondary font-medium text-[20px] text-[#FF7364]'>Our Services</p>
-                    <h3 className='font-primary font-bold text-[46px] leading-[58px] text-titleColor my-1'>How It Works</h3>
+                    <h3 className='font-primary font-bold text-[26px] leading-[36px] xl:text-[46px] xl:leading-[58px] text-titleColor my-1'>How It Works</h3>
                 </div>
-                <div className='flex gap-[30px] my-[80px]'>
-                    <div className='group hover:bg-primary transition ease-out duration-400 p-9 border-[1px] border-[#DCE7FE] rounded-[20px]'>
+                <div className='xl:flex gap-[30px] my-[40px] xl:my-[80px]'>
+                    <div className='group hover:bg-primary transition ease-out duration-400 p-9 border-[1px] border-[#DCE7FE] rounded-[20px] mb-[20px] xl:mb-0'>
                         <img src={serviceicon1} alt="#serviceicon1" />
                         <h1 className='group-hover:text-white font-primary font-bold text-[22px] leading-[34px] text-titleColor mt-[26px] mb-2'>Plan Product Roadmap</h1>
                         <p className='group-hover:text-white max-w-[258px] font-secondary text-[16px] leading-[26px] text-peraColor mb-[26px]'>A product roadmap is a shared source of truth that outlines the vision, direction, priorities</p>
@@ -23,7 +23,7 @@ const Service = () => {
                             <i class="group-hover:text-white fa-solid fa-arrow-right text-primary"></i>
                         </div>
                     </div>
-                    <div className='group hover:bg-primary transition ease-out duration-400 p-9 border-[1px] border-[#DCE7FE] rounded-[20px]'>
+                    <div className='group hover:bg-primary transition ease-out duration-400 p-9 border-[1px] border-[#DCE7FE] rounded-[20px] mb-[20px] xl:mb-0'>
                         <img src={serviceicon2} alt="#serviceicon1" />
                         <h1 className='group-hover:text-white font-primary font-bold text-[22px] leading-[34px] text-titleColor mt-[26px] mb-2'>Assign Any Work</h1>
                         <p className='group-hover:text-white max-w-[258px] font-secondary text-[16px] leading-[26px] text-peraColor mb-[26px]'>Work assignment or job assignment is allocating work to work centers or appropriate </p>
@@ -32,7 +32,7 @@ const Service = () => {
                             <i class="group-hover:text-white fa-solid fa-arrow-right text-primary"></i>
                         </div>
                     </div>
-                    <div className='group hover:bg-primary transition ease-out duration-400 p-9 border-[1px] border-[#DCE7FE] rounded-[20px]'>
+                    <div className='group hover:bg-primary transition ease-out duration-400 p-9 border-[1px] border-[#DCE7FE] rounded-[20px] mb-[20px] xl:mb-0'>
                         <img src={serviceicon3} alt="#serviceicon1" />
                         <h1 className='group-hover:text-white font-primary font-bold text-[22px] leading-[34px] text-titleColor mt-[26px] mb-2'>Monitor Work Progress</h1>
                         <p className='group-hover:text-white max-w-[258px] font-secondary text-[16px] leading-[26px] text-peraColor mb-[26px]'>Monitor Work ProgressKeeping records and monitoring activities helps people see progress </p>
@@ -41,7 +41,7 @@ const Service = () => {
                             <i class="group-hover:text-white fa-solid fa-arrow-right text-primary"></i>
                         </div>
                     </div>
-                    <div className='group hover:bg-primary transition ease-out duration-400 p-9 border-[1px] border-[#DCE7FE] rounded-[20px]'>
+                    <div className='group hover:bg-primary transition ease-out duration-400 p-9 border-[1px] border-[#DCE7FE] rounded-[20px] mb-[20px] xl:mb-0'>
                         <img src={serviceicon4} alt="#serviceicon1" />
                         <h1 className='group-hover:text-white font-primary font-bold text-[22px] leading-[34px] text-titleColor mt-[26px] mb-2'>Pertect Intergration</h1>
                         <p className='group-hover:text-white max-w-[258px] font-secondary text-[15px] leading-[26px] text-peraColor mb-[26px] tracking-[-0.25%]'>App integration, in a general sense, is the process of resources or capabilities from one application </p>
