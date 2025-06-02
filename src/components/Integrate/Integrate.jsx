@@ -19,7 +19,7 @@ import Integrate7 from '../CustomImg/Integrate7'
 
 const Integrate = () => {
     return (
-        <section className='bg-[#F4FAFA] py-[122px]'>
+        <section className='bg-[#F4FAFA] py-[80px] xl:py-[122px]'>
             <Container>
                 <div className='xl:flex justify-between'>
                     <div className='flex flex-col justify-center'>
@@ -36,12 +36,12 @@ const Integrate = () => {
                             <Integrate1 />
                             <Integrate2 />
                         </div>
-                        <div className='flex gap-[20px] md:gap-[30px] mt-[20px] md:mt-[35px]'>
+                        <div className='flex gap-[15px] md:gap-[30px] mt-[20px] md:mt-[35px]'>
                             <Integrate3 />
                             <Integrate4 />
                             <Integrate5 />
                         </div>
-                        <div className='flex gap-[20px] md:gap-[30px] mt-[20px] md:mt-[35px]'>
+                        <div className='flex gap-[15px] md:gap-[30px] mt-[20px] md:mt-[35px]'>
                             <Integrate6 />
                             <Integrate5 />
                             <Integrate7 />
