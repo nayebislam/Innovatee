@@ -7,7 +7,7 @@ import AboutSlider from './AboutSlider'
 
 const About = () => {
     return (
-        <section className='py-[100px] xl:py-[200px] bg-[#F4FAFA] mb-[309px]'>
+        <section className='py-[90px] xl:py-[200px] bg-[#F4FAFA] '>
             <Container>
                 <div className='xl:flex justify-between items-center'>
                     <div>
