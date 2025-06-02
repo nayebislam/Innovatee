@@ -7,14 +7,14 @@ import AboutSlider from './AboutSlider'
 
 const About = () => {
     return (
-        <section className='py-[200px] bg-[#F4FAFA] mb-[309px]'>
+        <section className='py-[100px] xl:py-[200px] bg-[#F4FAFA] mb-[309px]'>
             <Container>
-                <div className='flex justify-between items-center'>
+                <div className='xl:flex justify-between items-center'>
                     <div>
-                        <h1 className='max-w-[594px] font-primary font-bold text-[46px] leading-[58px] text-titleColor'>What they are talking about us?</h1>
-                        <p className='max-w-[503px] font-secondary font-medium text-[18px] leading-[32px] text-peraColor mt-[20px] mb-[40px]'>testimonials are evidence of customers talking about your product or service in their own words. At their best, they are authentic, descriptive.</p>
+                        <h1 className='max-w-[594px] font-primary font-bold text-[27px] leading-[36px] xl:text-[46px] xl:leading-[58px] text-titleColor'>What they are talking about us?</h1>
+                        <p className='max-w-[503px] font-secondary font-medium text-[18px] leading-7 xl:leading-[32px] text-peraColor mt-[10px] mb-[30px] xl:mt-[20px] xl:mb-[40px]'>testimonials are evidence of customers talking about your product or service in their own words. At their best, they are authentic, descriptive.</p>
                         <button className='font-secondary text-lg leading-[20px] text-white py-[20px] px-12 rounded-[6px] bg-primary cursor-pointer'>Get Started</button>
-                        <div className='flex gap-[30px] items-center mt-[80px]'>
+                        <div className='flex gap-[30px] items-center mt-[40px] xl:mt-[80px]'>
                             <div>
                                 <img src={aboutimage} alt="#aboutimage" />
                             </div>
@@ -34,7 +34,6 @@ const About = () => {
                         </div>
                     </div>
                     <div>
-                        
                         <AboutSlider />
                     </div>
                 </div>
