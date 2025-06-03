@@ -28,14 +28,14 @@ const Platform = () => {
     <section className='pt-[100px] pb-[100px] xl:pt-[336px] xl:pb-[160px]'>
         <Container>
             <div className='xl:px-[60px]'>
-                <div className='xl:flex justify-between text-center xl:text-left'>
-                    <h1 className='max-w-[504px] font-primary text-[26px] leading-[36px] xl:text-[46px] font-bold xl:leading-[56px] text-titleColor'>How simple is it to use our platform?</h1>
+                <div className='sm:flex flex-wrap xl:flex-nowrap justify-center xl:justify-between text-center xl:text-left'>
+                    <h1 className='max-w-[504px] font-primary text-[26px] leading-[36px] sm:text-[30px] sm:leading-[40px] xl:text-[46px] font-bold xl:leading-[56px] text-titleColor'>How simple is it to use our platform?</h1>
                     <p className='max-w-[530px] mt-2 xl:mt-0 font-secondary text-[18px] leading-[28px] xl:leading-[32px] text-peraColor'>This Innovate Con guide explores the most popular platforms and walks you through how to use them to grow your business.</p>
                 </div>
-                <div className='flex flex-wrap justify-between mt-[80px] xl:mt-[116px]'>
+                <div className='flex flex-wrap justify-between mt-[60px] xl:mt-[116px]'>
                     {
                         platfromData.map((item) => (
-                            <div className='xl:w-[300px] flex flex-col items-center text-center justify-center mb-[30px]'>
+                            <div className='sm:w-[300px] flex flex-col items-center text-center justify-center mb-[30px]'>
                                 <img src={item.img} alt="#platfromIcon" />
                                 <h3 className='font-primary font-bold text-[22px] xl:text-2xl leading-[30px] xl:leading-9 text-titleColor pt-[16px] pb-2 xl:pt-[26px] xl:pb-3'>
                                     {item.title}
