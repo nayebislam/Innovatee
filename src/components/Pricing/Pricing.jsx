@@ -13,7 +13,7 @@ const Pricing = () => {
                     <h1 className='max-w-[624px] m-auto font-primary font-bold text-[26px] leading-[36px] xl:text-[46px] xl:leading-[58px] text-titleColor'>Pricing Designed To Fit Your Business</h1>
                     <p className='font-primary font-bold text-[18px] xl:text-2xl leading-[100%] text-primary mt-[20px] xl:mt-[39px]'>Monthly</p>
                 </div>
-                <div className='flex flex-wrap xl:flex-nowrap gap-[30px] mt-[50px] xl:mt-[77px]'>
+                <div className='flex flex-wrap justify-center xl:justify-normal xl:flex-nowrap gap-[30px] mt-[50px] xl:mt-[77px]'>
                     <div className='py-9 px-8 xl:py-[40px] xl:px-[60px] border-[1px] border-[#DCE7FE] rounded-[20px] group hover:bg-primary hover:border-transparent transition ease-out duration-400 shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]'>
                         <div className='flex flex-col justify-center text-center'>
                             <img className='w-[90px] m-auto' src={pricingIcon1} alt="#pricingIcon1" />

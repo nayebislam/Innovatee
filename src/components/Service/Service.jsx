@@ -14,37 +14,37 @@ const Service = () => {
                     <h3 className='font-primary font-bold text-[26px] leading-[36px] xl:text-[46px] xl:leading-[58px] text-titleColor my-1'>How It Works</h3>
                 </div>
                 <div className='xl:flex gap-[30px] my-[40px] xl:my-[80px]'>
-                    <div className='group hover:bg-primary transition ease-out duration-400 p-9 border-[1px] border-[#DCE7FE] rounded-[20px] mb-[20px] xl:mb-0'>
+                    <div className='group hover:bg-primary transition ease-out duration-400 p-7 xl:p-9 border-[1px] border-[#DCE7FE] rounded-[20px] mb-[20px] xl:mb-0'>
                         <img src={serviceicon1} alt="#serviceicon1" />
-                        <h1 className='group-hover:text-white font-primary font-bold text-[22px] leading-[34px] text-titleColor mt-[26px] mb-2'>Plan Product Roadmap</h1>
-                        <p className='group-hover:text-white max-w-[258px] font-secondary text-[16px] leading-[26px] text-peraColor mb-[26px]'>A product roadmap is a shared source of truth that outlines the vision, direction, priorities</p>
+                        <h1 className='group-hover:text-white font-primary font-bold text-[18px] leading-7 xl:text-[22px] xl:leading-[34px] text-titleColor mt-[15px] xl:mt-[26px] mb-2'>Plan Product Roadmap</h1>
+                        <p className='group-hover:text-white max-w-[258px] font-secondary text-[16px] leading-[26px] text-peraColor mb-[15px] xl:mb-[26px]'>A product roadmap is a shared source of truth that outlines the vision, direction, priorities</p>
                         <div className='flex gap-1 items-center'>
                             <a className='group-hover:text-white font-secondary text-[16px] leading-[26px] text-primary' href="#">Read More</a>
                             <i class="group-hover:text-white fa-solid fa-arrow-right text-primary"></i>
                         </div>
                     </div>
-                    <div className='group hover:bg-primary transition ease-out duration-400 p-9 border-[1px] border-[#DCE7FE] rounded-[20px] mb-[20px] xl:mb-0'>
+                    <div className='group hover:bg-primary transition ease-out duration-400 p-7 xl:p-9 border-[1px] border-[#DCE7FE] rounded-[20px] mb-[20px] xl:mb-0'>
                         <img src={serviceicon2} alt="#serviceicon1" />
-                        <h1 className='group-hover:text-white font-primary font-bold text-[22px] leading-[34px] text-titleColor mt-[26px] mb-2'>Assign Any Work</h1>
-                        <p className='group-hover:text-white max-w-[258px] font-secondary text-[16px] leading-[26px] text-peraColor mb-[26px]'>Work assignment or job assignment is allocating work to work centers or appropriate </p>
+                        <h1 className='group-hover:text-white font-primary font-bold text-[18px] leading-7 xl:text-[22px] xl:leading-[34px] text-titleColor mt-[15px] xl:mt-[26px] mb-2'>Assign Any Work</h1>
+                        <p className='group-hover:text-white max-w-[258px] font-secondary text-[16px] leading-[26px] text-peraColor mb-[15px] xl:mb-[26px]'>Work assignment or job assignment is allocating work to work centers or appropriate </p>
                         <div className='flex gap-1 items-center'>
                             <a className='group-hover:text-white font-secondary text-[16px] leading-[26px] text-primary' href="#">Read More</a>
                             <i class="group-hover:text-white fa-solid fa-arrow-right text-primary"></i>
                         </div>
                     </div>
-                    <div className='group hover:bg-primary transition ease-out duration-400 p-9 border-[1px] border-[#DCE7FE] rounded-[20px] mb-[20px] xl:mb-0'>
+                    <div className='group hover:bg-primary transition ease-out duration-400 p-7 xl:p-9 border-[1px] border-[#DCE7FE] rounded-[20px] mb-[20px] xl:mb-0'>
                         <img src={serviceicon3} alt="#serviceicon1" />
-                        <h1 className='group-hover:text-white font-primary font-bold text-[22px] leading-[34px] text-titleColor mt-[26px] mb-2'>Monitor Work Progress</h1>
-                        <p className='group-hover:text-white max-w-[258px] font-secondary text-[16px] leading-[26px] text-peraColor mb-[26px]'>Monitor Work ProgressKeeping records and monitoring activities helps people see progress </p>
+                        <h1 className='group-hover:text-white font-primary font-bold text-[18px] leading-7 xl:text-[22px] xl:leading-[34px] text-titleColor mt-[15px] xl:mt-[26px] mb-2'>Monitor Work Progress</h1>
+                        <p className='group-hover:text-white max-w-[258px] font-secondary text-[16px] leading-[26px] text-peraColor mb-[15px] xl:mb-[26px]'>Monitor Work ProgressKeeping records and monitoring activities helps people see progress </p>
                         <div className='flex gap-1 items-center'>
                             <a className='group-hover:text-white font-secondary text-[16px] leading-[26px] text-primary' href="#">Read More</a>
                             <i class="group-hover:text-white fa-solid fa-arrow-right text-primary"></i>
                         </div>
                     </div>
-                    <div className='group hover:bg-primary transition ease-out duration-400 p-9 border-[1px] border-[#DCE7FE] rounded-[20px] mb-[20px] xl:mb-0'>
+                    <div className='group hover:bg-primary transition ease-out duration-400 p-7 xl:p-9 border-[1px] border-[#DCE7FE] rounded-[20px] mb-[20px] xl:mb-0'>
                         <img src={serviceicon4} alt="#serviceicon1" />
-                        <h1 className='group-hover:text-white font-primary font-bold text-[22px] leading-[34px] text-titleColor mt-[26px] mb-2'>Pertect Intergration</h1>
-                        <p className='group-hover:text-white max-w-[258px] font-secondary text-[15px] leading-[26px] text-peraColor mb-[26px] tracking-[-0.25%]'>App integration, in a general sense, is the process of resources or capabilities from one application </p>
+                        <h1 className='group-hover:text-white font-primary font-bold text-[18px] leading-7 xl:text-[22px] xl:leading-[34px] text-titleColor mt-[15px] xl:mt-[26px] mb-2'>Pertect Intergration</h1>
+                        <p className='group-hover:text-white max-w-[258px] font-secondary text-[15px] leading-[26px] text-peraColor mb-[15px] xl:mb-[26px] tracking-[-0.25%]'>App integration, in a general sense, is the process of resources or capabilities from one application </p>
                         <div className='flex gap-1 items-center'>
                             <a className='group-hover:text-white font-secondary text-[16px] leading-[26px] text-primary' href="#">Read More</a>
                             <i class="group-hover:text-white fa-solid fa-arrow-right text-primary"></i>

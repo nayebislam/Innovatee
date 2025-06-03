@@ -15,7 +15,7 @@ const Banner = () => {
                                 <input type="Email" placeholder='Your business email' className='xl:w-[480px] w-full py-5 pl-6 rounded-[6px] m-auto bg-white outline-0 placeholder:text-[#B4B6C4] placeholder:font-primary text-black' />
                                 <button className='font-secondary text-lg leading-[20px] text-[#2C2643] py-[15px]  px-[20px] xl:px-[28.5px] rounded-[6px] bg-secondery cursor-pointer absolute top-[7px] right-1.5 xl:right-[473px]'>Try for free</button>
                             </div>
-                            <div className=' absolute left-[-14%] xl:left-[-3%] bottom-[-305px] sm:bottom-[-410px] xl:bottom-[-815px]'>
+                            <div className=' absolute left-[-14%] xl:left-[-3%] bottom-[-308px] sm:bottom-[-410px] xl:bottom-[-815px]'>
                                 <img src={laptop} alt="#laptop" />
                             </div>
                         </div>

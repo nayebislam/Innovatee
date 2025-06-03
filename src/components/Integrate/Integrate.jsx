@@ -21,7 +21,7 @@ const Integrate = () => {
     return (
         <section className='bg-[#F4FAFA] py-[80px] xl:py-[122px]'>
             <Container>
-                <div className='xl:flex justify-between'>
+                <div className='flex flex-wrap xl:flex-nowrap xl:justify-between justify-center'>
                     <div className='flex flex-col justify-center'>
                         <p className='font-secondary text-[20px] font-medium text-[#FF7364]'>Integrations</p>
                         <h4 className='max-w-[587px] font-primary font-bold text-titleColor text-[26px] leading-[36px] xl:text-[46px] xl:leading-[58px] mt-1'>Easily integrate with your favorite apps</h4>
