@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from '../layout/Container'
-import '../Integrate/integrate.css'
+import '../Integrate/Integrate.css'
 import Integrate1 from '../CustomImg/Integrate1'
 import Integrate2 from '../CustomImg/Integrate2'
 import Integrate3 from '../CustomImg/Integrate3'
