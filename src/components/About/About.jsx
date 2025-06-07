@@ -1,4 +1,3 @@
-import React from 'react'
 import Container from '../layout/Container'
 import aboutimage from '../../assets/aboutimage.png'
 import '../About/about.css'
@@ -29,7 +28,7 @@ const About = () => {
                                         <i class="fa-solid fa-star"></i>
                                     </div>
                                 </div>
-                                <p className='font-secondary font-medium text-[18px] leading-[32px] text-peraColor'>280k Total Review</p>
+                                <p className='font-secondary font-medium text-[17px] leading-[32px] text-peraColor'>280k Total Review</p>
                             </div>
                         </div>
                     </div>
