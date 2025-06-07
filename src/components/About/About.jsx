@@ -1,6 +1,6 @@
 import Container from '../layout/Container'
 import aboutimage from '../../assets/aboutimage.png'
-import '../About/about.css'
+import '../About/About.css'
 import AboutSlider from './AboutSlider'
 
 
