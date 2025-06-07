@@ -1,6 +1,6 @@
 import './App.css'
 import Banner from './components/banner/Banner.jsx'
-import Navbar from './components/Navbar/Navbar'
+import Navbar from './components/navbar/Navbar'
 import Header from './components/Header/Header'
 import Platform from './components/Platform/Platform'
 import Features from './components/Features/Features'
